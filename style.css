@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 100px auto 0px auto;
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .item {
+  width: 160px;
+  height: 166px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 100px;
+}
+
+.main .item input {
+  background-color: #fff;
+  width: 160px;
+  height: 166px;
+  border: none;
+  text-align: center;
+  font-size: 100px;
+}
+
+.main .item input:disabled {
+  background-color: #fff;
+  color: #000;
+}
+
+.btnDiv {
+  margin: 20px 10px 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnDiv input {
+  width: 160px;
+  height: 30px;
+  visibility: hidden;
+}
+
+.btnDiv input.active {
+  visibility: visible;
+}
+
+.winnerText {
+  text-align: center;
+  margin: 20px 0px;
+}
+/*# sourceMappingURL=style.css.map */
